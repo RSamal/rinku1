@@ -14,3 +14,5 @@ service httpd start
 yum install -y php php-cli  php-devel php-common php-mysql
 
 # Download the Web Content
+sudo -u vagrant wget -q "https://raw.githubusercontent.com/RSamal/rinku1/master/files/index.html"
+sudo -u vagrant wget -q "https://raw.githubusercontent.com/RSamal/rinku1/master/files/info.php"
